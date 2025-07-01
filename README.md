@@ -60,3 +60,8 @@ And sending the smime.msg back to thejobdb for log-in. The challenge is only val
 10 jobs per url
 
 50 max job items per search
+
+## Browse job board
+https://thejobdb.com/boards/?company=thejobdb.com
+![Alt text](doc/images/job-board-example.png?raw=true "Title")
+
