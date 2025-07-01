@@ -14,9 +14,9 @@ $ pip install requests cryptography
 Which is equivalent to:
 
 ```
-$ curl https://thejobdb.com/api/login -s | jq .challenge -rj | openssl smime -sign -out smime.msg -signer server-cert.pem -inkey server-key.pem
+$ curl https://thejobdb.com/api/login/ -s | jq .challenge -rj | openssl smime -sign -out smime.msg -signer server-cert.pem -inkey server-key.pem
 ```
-And sending the smime.msg back to thejobdb for log-in. The challenge is only valid for session.
+And sending the smime.msg back to thejobdb for log-in. The challenge is only valid for a session.
 
 ## Post a job entry
 
