@@ -4,8 +4,8 @@ from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.serialization import pkcs7
 
 JOBDB_API = "https://thejobdb.com/api"
-LOGIN_URL = JOBDB_API + "/login"
-JOBS_URL = JOBDB_API + "/jobs"
+LOGIN_URL = JOBDB_API + "/login/"
+JOBS_URL = JOBDB_API + "/jobs/"
 
 
 def get_session(cakey_path, cacert_path, company_url):
